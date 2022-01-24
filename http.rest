@@ -1,0 +1,24 @@
+###
+PATCH  https://reqres.in/api/users/2
+Content-Type: application/json
+
+{
+    "first_name": "Elioet",
+    "last_name": "robot"
+}
+
+
+###
+get https://reqres.in/api/users/913
+
+###
+post https://reqres.in/api/users
+Content-Type: application/json
+
+{
+    "first_name": "Jacob",
+    "last_name": "collier",
+    "avatar": "https://reqres.in/img/faces/7-image.jpg",
+    "email": "jacob.collier@gmail.com"
+
+}
